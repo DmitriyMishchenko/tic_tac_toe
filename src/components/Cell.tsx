@@ -3,7 +3,7 @@ const Cell = (props: any) => {
   return (
     <div
       className="Cell"
-      onMouseDown={() => props.onMouseup(props.position, props.value)}
+      onClick={() => props.onClick(props.position, props.value)}
     >
       {props.value}
     </div>

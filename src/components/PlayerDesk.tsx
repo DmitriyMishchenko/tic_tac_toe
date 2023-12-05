@@ -155,7 +155,7 @@ const PlayerDesk = (props: any) => {
             key={size * row + cell}
             value={cells[size * row + cell]}
             position={size * row + cell}
-            onMouseup={MakeSign}
+            onClick={MakeSign}
           />
         ))}
       </Row>
